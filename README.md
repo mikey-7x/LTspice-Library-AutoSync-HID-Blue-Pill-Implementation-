@@ -53,9 +53,7 @@ If you only need to add one specific component (e.g., the `2N1595` SCR), follow 
 To generate all 186 SCRs, TRIACs, and UJTs instantly with perfect graphics and routing, flash the provided C++ payload to an STM32F103C8T6 (Blue Pill).
 
 ### 🚀 Installation & Execution
-
-> **[View the main.cpp Blue Pill Payload Here](src/main.cpp)**  
-> **[View the Python X11 Coordinate Verifier Here](scripts/verify_ujts_fixed.py)**  
+> **[View the Blue Pill HID Payload Here (hid16.ino)](hid16.ino)**  
 
 1.  **Compile the Code:** Use the Arduino IDE or your Termux `mhex` script to compile the C++ payload into a `.bin` or `.hex` file.
 2.  **Flash the Blue Pill:** Flash the firmware using an ST-Link.
