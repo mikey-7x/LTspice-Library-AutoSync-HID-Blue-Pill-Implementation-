@@ -2,7 +2,7 @@
 This project provides a comprehensive, automated solution for integrating the popular thyristr.lib third-party component library into LTspice.
 By default, adding a massive third-party library to LTspice requires manually drawing symbols, linking attributes, and routing SpiceNet pins for hundreds of individual components. This repository solves that bottleneck. It includes the standard manual instructions for single components, alongside an advanced STM32 Blue Pill HID (BadUSB) C++ payload that completely automates the generation of all 186 SCRs, TRIACs, and UJTs in under a minute.
 
-🛠️ Features & Debugging Advancements
+## 🛠️ Features & Debugging Advancements
 
 Through extensive troubleshooting, this automated workflow resolves several critical LTspice and hardware quirks:
  * Native Geometry Cloning: Instead of drawing flawed shapes, the automation script dynamically clones the pristine SCR.asy and TRIAC.asy vector files directly from LTspice's native Misc directory.
@@ -22,7 +22,7 @@ If you only need to add one specific component (e.g., the 2N1595 SCR), follow th
 Method 2: The Advanced Blue Pill HID Automator (For All 186 Components)
 To generate all 186 SCRs, TRIACs, and UJTs instantly with perfect graphics and routing, flash the provided C++ payload to an STM32F103C8T6 (Blue Pill).
 
-🚀 Installation & Execution
+## 🚀 Installation & Execution
 > View the main.cpp Blue Pill Payload Here
 > View the Python X11 Coordinate Verifier Here
 > 
@@ -33,7 +33,7 @@ To generate all 186 SCRs, TRIACs, and UJTs instantly with perfect graphics and r
    * Plug the Blue Pill directly into your Windows PC via the micro-USB port.
    * The hardware reset (PA12) will trigger, Windows will mount the HID keyboard, and the script will automatically execute in PowerShell.
 
-🧪 Verification: Perfect Phase-Controlled Rectifier Simulation
+## 🧪 Verification: Perfect Phase-Controlled Rectifier Simulation
 To verify the installation was successful and prevent simulation calculation errors (like avalanche breakdown or floating ground), build this exact Phase-Controlled Half-Wave Rectifier:
  * Place the Component: Press F2 and place your new 2N1595 SCR. Do not rotate or mirror it. The Anode (triangle) must point UP, and the Cathode (flat line) must point DOWN.
  * Wire the Main Loop: Connect Mains(+) -> 10Ω Load Resistor -> SCR Anode.
@@ -50,9 +50,10 @@ To verify the installation was successful and prevent simulation calculation err
 **Project Creator:** *Mikey-7x / Yogesh R. Chauhan*  
 **GitHub:** [github.com/mikey-7x](https://github.com/mikey-7x)  
 **License:** [MIT LICENCE](https://raw.githubusercontent.com/mikey-7x/LTspice-Library-AutoSync-HID-Blue-Pill-Implementation-/refs/heads/main/LICENSE)
+
 **Date:** 29 August 2026
 
-📜 License
+## 📜 License
 MIT License
 Copyright (c) 2026 Yogesh R. Chauhan (mikey-7x)
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
