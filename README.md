@@ -2,16 +2,6 @@
 This project provides a comprehensive, automated solution for integrating the popular thyristr.lib third-party component library into LTspice.
 By default, adding a massive third-party library to LTspice requires manually drawing symbols, linking attributes, and routing SpiceNet pins for hundreds of individual components. This repository solves that bottleneck. It includes the standard manual instructions for single components, alongside an advanced STM32 Blue Pill HID (BadUSB) C++ payload that completely automates the generation of all 186 SCRs, TRIACs, and UJTs in under a minute.
 
-👨‍🔬 Author Info
-
-Project Creator: Mikey-7x / Yogesh R. Chauhan
-
-GitHub: github.com/mikey-7x
-
-License: MIT
-
-Date: 29 August 2026
-
 🛠️ Features & Debugging Advancements
 
 Through extensive troubleshooting, this automated workflow resolves several critical LTspice and hardware quirks:
@@ -54,6 +44,14 @@ To verify the installation was successful and prevent simulation calculation err
    * Trigger: Right-click -> Advanced -> PULSE. Vinitial = 0, Von = 5, Tdelay = 5m, Trise = 1u, Tfall = 1u, Ton = 1m, Tperiod = 20m.
  * Simulate: Click .op to add the text .tran 100m, hit Run.
  * Probe the Load: Hover over the 10Ω Load Resistor until the cursor turns into a red current clamp and click. You will see the perfectly chopped half-wave output firing at exactly 5ms.
+
+## 👨‍🔬 Author Info
+
+**Project Creator:** *Mikey-7x / Yogesh R. Chauhan*  
+**GitHub:** [github.com/mikey-7x](https://github.com/mikey-7x)  
+**License:** [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-orange.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+**Date:** 29 August 2026
 
 📜 License
 MIT License
