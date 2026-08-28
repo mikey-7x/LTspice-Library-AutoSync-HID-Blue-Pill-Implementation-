@@ -23,9 +23,12 @@ Method 2: The Advanced Blue Pill HID Automator (For All 186 Components)
 To generate all 186 SCRs, TRIACs, and UJTs instantly with perfect graphics and routing, flash the provided C++ payload to an STM32F103C8T6 (Blue Pill).
 
 ## 🚀 Installation & Execution
-> View the main.cpp Blue Pill Payload Here
-> View the Python X11 Coordinate Verifier Here
-> 
+
+here i given the pre-compiled hex file to implement "LTspice Library AutoSync" code directly in your blue pill board.
+
+[Hex for blue pill](https://raw.githubusercontent.com/mikey-7x/LTspice-Library-AutoSync-HID-Blue-Pill-Implementation-/refs/heads/main/hid16.hex)
+
+
  * Compile the Code: Use the Arduino IDE or your Termux mhex script to compile the C++ payload into a .bin or .hex file.
  * Flash the Blue Pill: Flash the firmware using an ST-Link.
  * Execute the Automation:
