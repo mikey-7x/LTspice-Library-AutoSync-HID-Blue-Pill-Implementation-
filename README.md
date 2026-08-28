@@ -49,7 +49,7 @@ To verify the installation was successful and prevent simulation calculation err
 
 **Project Creator:** *Mikey-7x / Yogesh R. Chauhan*  
 **GitHub:** [github.com/mikey-7x](https://github.com/mikey-7x)  
-**License:** [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-orange.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+**License:** [![MIT LICENCE](https://raw.githubusercontent.com/mikey-7x/LTspice-Library-AutoSync-HID-Blue-Pill-Implementation-/refs/heads/main/LICENSE)
 
 **Date:** 29 August 2026
 
