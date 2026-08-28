@@ -3,12 +3,17 @@ This project provides a comprehensive, automated solution for integrating the po
 By default, adding a massive third-party library to LTspice requires manually drawing symbols, linking attributes, and routing SpiceNet pins for hundreds of individual components. This repository solves that bottleneck. It includes the standard manual instructions for single components, alongside an advanced STM32 Blue Pill HID (BadUSB) C++ payload that completely automates the generation of all 186 SCRs, TRIACs, and UJTs in under a minute.
 
 👨‍🔬 Author Info
+
 Project Creator: Mikey-7x / Yogesh R. Chauhan
+
 GitHub: github.com/mikey-7x
+
 License: MIT
+
 Date: 29 August 2026
 
 🛠️ Features & Debugging Advancements
+
 Through extensive troubleshooting, this automated workflow resolves several critical LTspice and hardware quirks:
  * Native Geometry Cloning: Instead of drawing flawed shapes, the automation script dynamically clones the pristine SCR.asy and TRIAC.asy vector files directly from LTspice's native Misc directory.
  * Custom UJT Generation: Because LTspice lacks a native generic UJT symbol, the script mathematically constructs a perfect, proportionally accurate N-Type UJT (complete with overhanging base bar and precise emitter arrow).
