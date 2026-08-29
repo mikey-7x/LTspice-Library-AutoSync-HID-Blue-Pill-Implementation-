@@ -62,6 +62,9 @@ To generate all 186 SCRs, TRIACs, and UJTs instantly with perfect graphics and r
     *   Plug the Blue Pill directly into your Windows PC via the micro-USB port.
     *   The hardware reset (`PA12`) will trigger, Windows will mount the HID keyboard, and the script will automatically execute in PowerShell.
 
+i provideded the pre-compiled hex code of this **LTspice Library AutoSync** code to upload directly in blue pill board and directly attached it to your computer to install all libraries immediately.
+> **[View the hex file of Blue Pill HID Payload Here (hid16.hex)](hid16.hex)**
+
 ---
 
 ## 🧪 Verification: Perfect Phase-Controlled Rectifier Simulation
